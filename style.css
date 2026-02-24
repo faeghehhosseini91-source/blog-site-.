@@ -44,7 +44,7 @@ h1 {
 
 }
 
-body {
+.blog {
   background: #e0f7fa; /* آبی روشن */
   font-family: sans-serif;
   margin: 0;
@@ -70,4 +70,5 @@ body {
 .blog p {
   color: #555; /* خاکستری برای متن توضیح */
 }
+
 
