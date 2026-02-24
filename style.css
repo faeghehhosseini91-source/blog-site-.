@@ -43,44 +43,31 @@ h1 {
   color: #555;
 
 }
-/* پس‌زمینه کل سایت */
+
 body {
-  background: #f0f8ff;  /* آبی روشن و شاد */
+  background: #e0f7fa; /* آبی روشن */
   font-family: sans-serif;
   margin: 0;
   padding: 20px;
 }
 
-/* عنوان سایت */
-h1 {
-  color: #ff6f61;  /* صورتی ملایم */
-  text-align: center;
-}
-
-/* کارت‌های بلاگ */
 .blog {
-  background: #fffbe6;  /* کرم روشن */
-  color: #333;          /* رنگ متن */
+  background: #ffffff; /* سفید برای بلاگ */
+  color: #00796b; /* آبی تیره برای متن */
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-  transition: transform 0.3s, background 0.3s;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-/* وقتی موس روی کارت میره */
 .blog:hover {
-  transform: translateY(-5px);
-  background: #ffe0b3;  /* زرد ملایم هنگام هاور */
+  background: #b2ebf2; /* آبی روشن هنگام هاور */
 }
 
-/* عنوان هر بلاگ */
 .blog h3 {
-  color: #ff4500;  /* نارنجی جذاب */
-  margin: 10px;
+  color: #004d40; /* سبز تیره برای عنوان */
 }
 
-/* توضیحات بلاگ */
 .blog p {
-  color: #555;
-  margin: 10px;
+  color: #555; /* خاکستری برای متن توضیح */
 }
+
