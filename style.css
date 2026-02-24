@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+  background: #f2f4f8;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.blog-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.blog {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.blog:hover {
+  transform: translateY(-5px);
+}
+
+.blog img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.blog h3 {
+  margin: 10px;
+}
+
+.blog p {
+  margin: 10px;
+  color: #555;
+}
